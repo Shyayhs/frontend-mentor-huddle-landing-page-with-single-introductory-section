@@ -30,7 +30,7 @@ Os usuários devem ser capazes de:
 
 ### Link
 
-- URL da solução: [Frontend Mentor | Huddle landing page with single introductory section](https://github.com/Shyayhs/frontend-mentor-huddle-landing-page-with-single-introductory-section)
+- URL da solução: [Frontend Mentor | Huddle landing page with single introductory section](https://shyayhs.github.io/frontend-mentor-huddle-landing-page-with-single-introductory-section/)
 
 ## Meu processo
 
