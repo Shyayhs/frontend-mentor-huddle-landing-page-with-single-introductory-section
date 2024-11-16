@@ -1,0 +1,52 @@
+@media (max-width: 1300px) {
+    body {
+        padding: 50px 30px 20px;
+    }
+
+    .container .texts {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container .texts {
+        width: 300px;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        background: url(../images/bg-mobile.svg) top center no-repeat;
+        background-color: var(--background-color);
+       background-size: 100% 63%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .main-image {
+        width: 100%;
+        flex: 0;
+    }
+
+    .container .texts {
+        text-align: center;
+        align-items: center;
+        width: 350px;
+        flex: 0;
+    }
+
+    .icon-list {
+        justify-content: center;
+        height: 200px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .container .texts {
+        width: 280px;
+    }
+}

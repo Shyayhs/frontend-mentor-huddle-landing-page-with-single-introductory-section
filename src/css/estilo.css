@@ -1,0 +1,113 @@
+body {
+    background: url(../images/bg-desktop.svg) left
+    top no-repeat;
+    background-color: var(--background-color);
+    background-size: 80% 100%;
+    font-family: 'Open sans', sans-serif;   
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px 20px;
+    height: 100vh;
+    color: #fff;
+}
+
+.header .logo {
+    width: 180px;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.container .main-image {
+    width: 50%;
+    flex: 1;
+}
+
+.container .texts {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    flex: 1;
+    margin-right: 100px;
+}
+
+.container .texts .title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .texts .description {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.container .texts button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+}
+
+.container .texts button:hover {
+    background-color: var(--active-color);
+}
+
+.container .texts .button-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    color: var(--background-color);
+}
+
+footer {
+    flex: 1;
+}
+
+.icon-list {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: end;
+    font-size: 15px;
+}
+
+.icon-list .media-icon {
+    border-radius: 50%;
+    border: solid 1px #fff;
+    min-width: 35px;
+    height: 35px;
+}
+
+.icon-list .media-icon:hover {
+    border: solid 1px var(--active-color);
+}
+
+.media-link {
+    border-radius: 50%;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transform: translateY(1px);
+}
+
+.icon-list .media-icon:hover .media-link {
+    color: var(--active-color);
+}
