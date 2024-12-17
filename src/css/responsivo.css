@@ -18,30 +18,52 @@
     body {
         background: url(../images/bg-mobile.svg) top center no-repeat;
         background-color: var(--background-color);
-       background-size: 100% 63%;
+        background-size: 100% 63%;
+        height: 100%;
+        padding-bottom: 0;
+    }
+
+    .header .logo {
+        width: 120px;
     }
 
     .container {
         flex-direction: column;
         align-items: center;
+        margin-top: 10px;
+        gap: 20px;
     }
 
     .container .main-image {
-        width: 100%;
+        width: 90%;
         flex: 0;
     }
 
     .container .texts {
+        margin-top: 0;
         text-align: center;
         align-items: center;
         width: 350px;
         flex: 0;
     }
 
+    .container .texts .title {
+        font-size: 20px;
+    }
+
+    .container .texts .description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .icon-list {
         justify-content: center;
         height: 200px;
         align-items: center;
+    }
+
+    .icon-list {
+        height: 80px;
     }
 }
 
